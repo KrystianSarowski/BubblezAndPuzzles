@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3448270907655928654
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8156661919012089763}
+  - component: {fileID: 6884884234548436098}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8156661919012089763
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3448270907655928654}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 288.29187, y: 346.52902, z: -231.125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6884884234548436098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3448270907655928654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67f692d134ab66549ad6f13a0836418b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_soundArray:
+  - m_name: BackgroundMusic
+    m_clip: {fileID: 8300000, guid: 94efb079f5c754f49a457dbd6ad860de, type: 3}
+    m_loop: 1
+    m_volume: 0.1
+    m_pitch: 1.25
+    m_source: {fileID: 0}
+  - m_name: JumpSound
+    m_clip: {fileID: 8300000, guid: a78dab92fc6a3794ab7fa5df50a8a253, type: 3}
+    m_loop: 0
+    m_volume: 0.05
+    m_pitch: 2.5
+    m_source: {fileID: 0}
+  - m_name: NomSound
+    m_clip: {fileID: 8300000, guid: 2c413cbc47648ba46a91fb202f141d23, type: 3}
+    m_loop: 0
+    m_volume: 0.1
+    m_pitch: 1.5
+    m_source: {fileID: 0}
+  - m_name: ButtonClick
+    m_clip: {fileID: 8300000, guid: 8bbba68b4e2e72042976455f2f5e9bf5, type: 3}
+    m_loop: 0
+    m_volume: 0.1
+    m_pitch: 1.5
+    m_source: {fileID: 0}
